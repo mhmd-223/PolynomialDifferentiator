@@ -26,14 +26,14 @@ public class PolynomialDifferentiator {
 
     private void getInput() {
         String infoMessage = """
-                This program calculates the first derivative of a polynomial function expressed in standard form using the power rule of differentiation.
+                This program calculates the nth derivative of a polynomial function expressed in standard form using the power rule of differentiation.
                 Here are some instructions to consider before using the program:
                     - Standard form: The input polynomial function should be in the form f(x) = ax^n + bx^(n-1) + c*x^(n-2) + ... + d,
                       where a, b, c, and d are constants, x is the independent variable, and n is a positive integer value.
                     - Input format: The program assumes that the input polynomial function is expressed in the standard form specified.
                       Other forms of polynomial functions or non-polynomial functions may not work correctly with this program.
                     - Independent variable: The independent variable in the input function must be x.
-                By following these instructions, you can ensure that the program works accurately and provides the correct first derivative of the polynomial function.
+                By following these instructions, you can ensure that the program works accurately and provides the correct nth derivative of the polynomial function.
                                 """;
         System.out.println(infoMessage);
         System.out.print("Enter f(x) = ");
