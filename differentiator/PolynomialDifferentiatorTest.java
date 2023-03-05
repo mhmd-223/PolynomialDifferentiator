@@ -1,4 +1,4 @@
-package chapter2.differentiator;
+package differentiator;
 
 class PolynomialDifferentiatorTest {
     public static void testPolynomialDifferentiator() {
