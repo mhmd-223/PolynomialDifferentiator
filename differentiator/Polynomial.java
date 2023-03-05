@@ -1,4 +1,4 @@
-package chapter2.differentiator;
+package differentiator;
 
 import java.util.ArrayList;
 import java.util.Collections;
